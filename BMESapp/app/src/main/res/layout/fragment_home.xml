@@ -29,24 +29,27 @@
             app:layout_constraintVertical_bias="0.006" />
 
         <!--Welcome Text-->
+
+        <!--OUTREACH PIC-->
+
+        <!--ABOUT BMES LABEL-->
+
+        <!--ABOUT US TEXT-->
+
         <TextView
             android:id="@+id/WelcomeText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Welcome to the Marquette Biomedical Engineering Society App"
             android:textColor="#01015A"
+            android:textSize="13sp"
             android:textStyle="bold"
-            android:layout_marginTop="0dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.444"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.157" />
+            app:layout_constraintVertical_bias="0.151" />
 
-        <!--OUTREACH PIC-->
-
-        <!--ABOUT BMES LABEL-->
         <ImageView
             android:id="@+id/imageView3"
             android:layout_width="wrap_content"
@@ -55,12 +58,10 @@
             android:src="@drawable/outreach1"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0" />
-
-        <!--ABOUT US TEXT-->
+            app:layout_constraintVertical_bias="0.009" />
 
         <TextView
             android:id="@+id/textView5"
@@ -82,7 +83,7 @@
             android:id="@+id/textView6"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="430dp"
+            android:layout_marginTop="420dp"
             android:text="@string/about_us_txt"
             android:textColor="#01015A"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -94,9 +95,9 @@
 
         <ImageView
             android:id="@+id/imageView4"
-            android:layout_width="230dp"
-            android:layout_height="230dp"
-            android:layout_marginTop="625dp"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="630dp"
             android:src="@drawable/outreach4"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
