@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.contacts.ContactsFragment">
+
+    <RelativeLayout
+        android:id="@+id/imagebtn_insta"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:background="@drawable/custom_button_linking"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Version"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/insta_icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="10dp"
+            android:src="@drawable/insta_logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="0dp"
+            android:layout_toEndOf="@+id/insta_icon"
+            android:layout_toRightOf="@+id/insta_icon"
+            android:fontFamily="times"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="Follow us on instagram"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:textStyle="normal" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/Version"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Version 1.0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/imagebtn_twitter"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button_linking"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagebtn_insta"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/twitter_icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="10dp"
+            android:src="@drawable/twitter_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="0dp"
+            android:layout_toEndOf="@+id/twitter_icon"
+            android:layout_toRightOf="@+id/twitter_icon"
+            android:fontFamily="times"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="Follow us on twitter"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:textStyle="normal" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/imagebtn_email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button_linking"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagebtn_twitter"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/email_icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="10dp"
+            android:src="@drawable/email_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="0dp"
+            android:layout_toEndOf="@+id/email_icon"
+            android:layout_toRightOf="@+id/email_icon"
+            android:fontFamily="times"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="Email us"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:textStyle="normal" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnAboutus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="About Us Page"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagebtn_email" />
+
+    <TextView
+        android:id="@+id/copyright"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="copyright"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAboutus" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
